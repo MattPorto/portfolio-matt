@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.hero-section {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.btn-custom {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.profile-img {
+  margin-bottom: 30px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-section {
+  padding: 80px 20px;
+  background-color: #f8f9fa;
+}
+
+.portfolio-section h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.portfolio-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-card-body {
+  padding: 20px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-float a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  font-size: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float a:hover {
+  background-color: #1ebe5d;
+}
